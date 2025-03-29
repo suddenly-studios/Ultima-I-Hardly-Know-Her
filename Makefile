@@ -1,3 +1,5 @@
+dev-deps:
+  brew bundle install
 
 build:
 	docker buildx build --tag ultima-adventures --progress auto .
