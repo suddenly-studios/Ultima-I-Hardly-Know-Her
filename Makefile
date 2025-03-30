@@ -16,3 +16,5 @@ dev-deps:
 	brew bundle install
 
 all: dev-deps compile build run
+
+rebuild: stop compile build run
