@@ -33,3 +33,4 @@ Steps to get started:
 4. `make compile` to build the linux binary you'll need
 5. `make build` to build the containerized image
 6. `make run` to start the container and boot up the server!
+7. Changes in code can be re-loaded into the container via `make rebuild`
