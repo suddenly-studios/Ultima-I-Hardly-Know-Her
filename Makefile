@@ -1,5 +1,3 @@
-dev-deps:
-  brew bundle install
 
 build:
 	docker buildx build --tag ultima-adventures --progress auto .
@@ -11,3 +9,6 @@ run:
 .PHONY: stop
 stop:
 	docker stop ultima-adventures
+
+dev-deps:
+	brew bundle install
