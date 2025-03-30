@@ -21,7 +21,7 @@ COPY ./*.exe /opt/Ultima-Adventures/
 
 WORKDIR /opt/Ultima-Adventures
 
-CMD ["mono", "./LinuxServer.exe"]
+CMD ["mono", "./RunUO.exe"]
 
 # Port is set in "Scripts/Server Functions/Misc/SocketOptions.cs"
 EXPOSE 2593/tcp
