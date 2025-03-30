@@ -30,7 +30,8 @@ Steps to get started:
 1. Ensure you have `brew` installed
 2. clone repo, make it your working directory
 3. `make dev-deps` to install contents of Brewfile
-4. `make compile` to build the linux binary you'll need
-5. `make build` to build the containerized image
-6. `make run` to start the container and boot up the server!
-7. Changes in code can be re-loaded into the container via `make rebuild`
+4. Start the Orbstack agent, `⌘ + Space` to open spotlight and type Orbstack.
+5. `make compile` to build the linux binary you'll need
+6. `make build` to build the containerized image
+7. `make run` to start the container and boot up the server!
+8. Changes in code can be re-loaded into the container via `make rebuild`
